@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Video_Audio Api</title>
+</head>
+<body>
+    <div class="container-fluid main">    
+        <header>
+            <div class="main_head">
+                <h3>Media Api</h3>
+            </div>
+        </header>
+    </div>   
+    <div class="container-fulid sec">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 para">
+                        <p>Please Give Permission of Camera and Mic. Otherwise it not work
+                        Click on Start Button to Start Recording. Click on stop recording button to stop the recording</p>
+                    </div>
+                
+                
+                    <div class="col-12 bton">
+                        <button class="btn btn-success" id="btnStart">START</button>
+                        <button class="btn btn-danger" id="btnStop">STOP</button>
+                    </div>
+                    
+                        <div class="col-12">
+                            <p id="vc" style="color:red">Show Real Video in camera *</p>
+                            <video id="vid1" controls></video>
+                        </div>
+                        <div class="col-12">
+                                <p id="vc" style="color:green">Show Recorded Video in camera *</p>
+                          <video id="vid2" controls></video>
+                        </div>
+                </div>
+            </div>
+             <div class="container-fluid foot">
+                    <p>All Right Reserved @ Ankit Kumar</p>
+            </div> 
+        </section>
+    </div>
+
+
+   <script src="js/main.js"></script>
+</body>
+</html>

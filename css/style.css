@@ -1,0 +1,68 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-color: whitesmoke;
+}
+.main_head h3{
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+.sec{
+    /* background-color: whitesmoke; */
+    height: auto;
+    position: relative;
+    top: 5vh;
+}
+ p{
+    padding: 10px;
+    font-size: 18px;
+    color:black;
+    font-weight: 500;
+    text-align: center;
+}
+#vc{
+    text-align: left;
+    margin-left: 20px;
+    /* color: red; */
+}
+.bton{
+    /* margin: 5vh; */
+    text-align: center;
+}
+.bton .btn-lg{
+margin: 0 10px;
+}
+
+#vid1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2vh;
+}
+#vid2{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10vh;
+}
+.bt{
+    position: relative;
+    margin: 50 auto;
+}
+
+.foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+}
+.foot p{
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+}
